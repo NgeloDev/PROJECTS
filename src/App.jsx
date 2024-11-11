@@ -145,20 +145,20 @@ function App() {
 
       <section className="min-h-screen">
         <div className="md:flex md:flex-row-reverse ">
-          <div className="md:w-1/2 md:flex md:flex-col ">
-            <h1 className="text-4xl lg:text-6xl md:text-5xl md:mt-56  text-center mt-8">SEE YOU SOON</h1>
-            <div className="text-2xl md:text-3xl lg:text-4xl ml-10  md:my-auto md:pb-36">
+          <div className="md:w-1/2  mb-8 ">
+            <h1 className="text-4xl lg:text-5xl md:text-5xl md:mt-  text-center mt-8">SEE YOU SOON</h1>
+            <div className="text-2xl ml-10  md:my-auto ">
             <p className="mt-8 mb-2 font-semibold">Phone Number</p>
             <p>(123) 456-7890</p>
             <p className="mt-8 mb-2 font-semibold">Email Address</p>
             <p>hello@reallygreatsite.com</p>
             <p className="mt-8 mb-2 font-semibold">Restaurant</p>
-            <p className="mb-8">123 Anywhere St. Any City, ST 12345</p>
+            <p className="">123 Anywhere St. Any City, ST 12345</p>
             </div>
           </div>
           
-          <div className="md:w-1/2 h-screen ">
-            <img className="md:w-full h-full object-cover" src="\src\assets\pexels-marta-dzedyshko-1042863-2067430.jpg" alt="" />
+          <div className="md:w-1/2  min-h-screen ">
+            <img className="md:w-full md:h-full  object-cover " src="\src\assets\pexels-marta-dzedyshko-1042863-2067430.jpg" alt="" />
           </div>
         </div>
       </section>
